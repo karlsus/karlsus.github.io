@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Home
+        </title>
+    </head>
+    
+    <style type="text/css">
+            body{
+				background-image:url(palawn.jpg);
+                font-family:Futura;
+				background-attachment:fixed;
+            }
+			
+			#top{
+				background-color:black;
+				height:47px;
+				text-align:center;
+				font-size:18px;
+                padding-top:33px;
+			}
+			
+			#body{
+				font-family:Futura;
+				background-color:white;
+				height:auto;
+				background: rgba(255, 255, 255, 0.7);
+                padding:8px 8px 8px 8px;
+            }
+			
+			a{
+				color:white;
+                font-family:Futura;
+                text-decoration:none;
+			}
+            
+            div{
+                text-align:center;
+				padding:10px 15px;
+            }
+            
+            a:hover{
+                color:yellow;
+                opacity:0.8;
+            }
+			
+            #hom{
+                border:none;
+                height:18px;
+                width:10px;
+            }
+            
+            #hom:hover{
+                color:blue;
+                opacity:0.8;
+            }
+            
+            #click{
+                text-align:left;
+                color:blue;
+                text-decoration:underline;
+            }
+            
+            #footer{
+                background-color:#059EFC;
+                color:white;
+            }
+            
+            #container{
+                position:relative;
+                width:40%;
+            }
+            
+            #ima{
+                opacity: 1;
+                display: block;
+                width: 40%;
+                height: 40%;
+                transition: .5s ease;
+                backface-visibility: hidden;
+            }
+            
+            #middle{
+                transition: .5s ease;
+                opacity: 0;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                -ms-transform: translate(-50%, -50%)
+            }
+            
+            #container:hover #ima{
+                opacity: 0.3;
+            }
+            
+            #container:hover #middle{
+                opacity:1;
+            }
+            
+            #text{
+                background-color: #059EFC;
+                color: white;
+                font-size: 16px;
+                padding: 16px 32px;
+            }
+    </style>
+    
+    <body>
+        <div align="center" id="top">
+            <a href="home.html" id="hom">
+                HOME
+            </a>
+            
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            
+            <a href="team.html" id="des">
+                DESTINATIONS
+            </a>    
+            
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            
+            <a href="palawan.html" id="pah">
+                PALAWAN
+            </a>
+            
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            
+            <a href="travel.html" id="tra">
+                TRAVEL INFO
+            </a>
+            
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            
+            <a href="faq.html" id="faq">
+                FAQ
+            </a>
+            
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            
+            <a href="site.html" id="sit">
+                ABOUT US
+            </a>
+        </div>
+        
+        <br>
+        <br>
+        
+        <div align="center" id="body">
+            <h1 id="haw">
+                Palawan
+            </h1>
+            
+            <br>
+            <br>
+            
+            <div id="container">
+                <img src="travl.jpg"> &nbsp; &nbsp;
+
+                <div id="middle">
+                    <a href="travel.html">
+                        <div id="text" align="center">
+                        To learn how to get to Palawan,    
+                            Click here
+                        </div>
+                    </a>
+                </div>
+            </div>
+            
+            <br>
+            
+            <div id="container">
+                <img src="destinations.jpg"> &nbsp; &nbsp;
+
+                <div id="middle">
+                    <a href="team.html">
+                        <div id="text" align="center">
+                        To know about the different places and activities to be done in Palawan,
+                            Click here
+                        </div>
+                    </a>
+                </div>
+            </div>
+            
+            <br>
+            
+            <div id="container">
+                <img src="about.jpg"> &nbsp; &nbsp;
+
+                <div id="middle">
+                    <a href="palawan.html">
+                        <div id="text" align="center">
+                        To know more about the history Palawan,    
+                            Click here
+                        </div>
+                    </a>
+                </div>
+            </div>
+            
+            <br>
+            
+            <div id="container">
+                <img src="FAQ.jpg"> &nbsp; &nbsp;
+
+                <div id="middle">
+                    <a href="faq.html">
+                        <div id="text" align="center">
+                        To know the answers to frequently asked questions,  
+                            Click here
+                        </div>
+                    </a>
+                </div>
+            </div>
+            
+            <br>
+            
+            <div id="container">
+                <img src="team.jpg"> &nbsp; &nbsp;
+
+                <div id="middle">
+                    <a href="site.html">
+                        <div id="text" align="center">
+                        To know more about the team behind this travel agency,  
+                            Click here
+                        </div>
+                    </a>
+                </div>
+            </div
+        </div>
+        
+        <div id="footer">
+            Made by Tralawan
+        </div>
+    </body>
+</html>
